@@ -1,0 +1,189 @@
+body{
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    background-color:  #04221a;
+    font-family: sans-serif;
+    line-height: 2;
+    color: white;
+
+
+}
+
+header p {
+    margin-bottom: 70px;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    background-color:#51a78a;
+    padding: 52px 77px; 
+    color: white;
+}
+.nav{
+    background-color: #4d4e4e;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    font-size: large; 
+}
+
+.navbar li{
+   margin: auto;
+   padding: 20px;
+   border-right: 1px  solid white;
+
+}
+
+.navbar li:last-child {
+    border-right: none;
+  }
+
+
+.navbar a{
+color: white;
+text-decoration: none;
+}
+main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 25px;
+    border-bottom: 0.5px solid white;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.sidebarUL{
+    color: white;
+    margin: 0;
+}
+.sidebarUL h2{
+    padding-left: 15px;
+    margin: 0;
+}
+.sidebarUL ul{
+    padding: 0;
+}
+
+.sidebarUL li{
+    padding: 5px;
+    text-decoration: underline;
+
+}
+.sidebarBlOCK{
+    padding: 20px 50px 40px 0px;
+}
+.sidebarBlOCK h2{
+    padding-left: 15px;
+}
+.maindiv{
+    display: flex;
+}
+.gallery{
+    color: white;
+    margin: 0;
+    margin-bottom: 80px;
+
+}
+
+.gallery h1{
+    border-bottom: 0.5px solid white;
+    padding: 10px 0px;
+}
+
+button{
+    padding: 10px;
+    background-color: #e3eef0;
+    font-weight: bold;
+    border: 0;
+    width: 100px;
+}
+.subscription{
+
+    color: white;
+    width: fit-content;
+    padding-right: 20px;
+
+}
+.subscription p {
+    margin: 40px 0px;
+}
+
+.OtherServices{
+    color: white;
+    width: fit-content;
+    padding-left: 20px;
+    border-left: 1px solid white;
+}
+.OtherServices p {
+    margin: 40px 0px;
+}
+
+    .contact-form {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-form h2 {
+        margin-bottom: 1em;
+        color: #333;
+    }
+    
+    .contact-form label {
+        display: block;
+        margin-top: 1em;
+        font-weight: bold;
+        color: #555;
+    }
+    
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 100%;
+        padding: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .contact-form textarea {
+        resize: vertical;
+    }
+    
+    .contact-form label[for="complaint"],
+    .contact-form label[for="suggestion"] {
+        margin-right: 1em;
+    }
+    
+    .contact-form button {
+        display: block;
+        margin-top: 1em;
+        padding: 0.5em 1em;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .contact-form button:hover {
+        background-color: #555;
+    }
+
+footer{
+    border-top: 1px solid white;
+    height: 40px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
